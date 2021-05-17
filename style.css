@@ -16,13 +16,13 @@ h1,
 h2,
 h3,
 button {
-    font-family: sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 
 body {
     display: grid;
     min-height: 100vh;
-    grid-template-columns: 1fr 15rem 1fr;
+    grid-template-columns: 1fr 17rem 1fr;
     background-color: var(--light-blue);
 }
 
@@ -37,7 +37,7 @@ body {
     left: 50%;
     transform: translate(-50%, -50%);
     z-index: 1;
-    padding: 2.5rem 3.75rem;
+    padding: 3rem 4.25rem;
     background-color: #fff;
     border-radius: 10px;
     box-shadow: 0 34px 18px -13px hsla(228 84% 63% / .2);
