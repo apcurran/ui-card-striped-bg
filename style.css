@@ -7,6 +7,7 @@
 :root {
     --dark-blue: #5372f0;
     --light-blue: #ebf3fb;
+    --dark-grey: #747474;
 }
 
 html,
@@ -36,15 +37,19 @@ body {
     left: 50%;
     transform: translate(-50%, -50%);
     z-index: 1;
-    padding: 2rem 2.5rem;
+    padding: 2.5rem 3.75rem;
     background-color: #fff;
     border-radius: 10px;
-    box-shadow: 0 30px 15px -13px hsla(228 84% 63% / .175);
+    box-shadow: 0 34px 18px -13px hsla(228 84% 63% / .2);
 }
 
-.card__title,
+.card__title {
+    margin-bottom: .5rem;
+}
+
 .card__desc {
-    margin-bottom: 1rem;
+    margin-bottom: 1.25rem;
+    color: var(--dark-grey);
 }
 
 .card__btn {
@@ -58,7 +63,7 @@ body {
     border-radius: 6px;
     color: var(--dark-blue);
     font-weight: 700;
-    font-size: .875rem;
+    font-size: .9375rem;
     background: none;
 
     /* Transition color of font and svg icon */
